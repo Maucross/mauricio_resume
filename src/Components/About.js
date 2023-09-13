@@ -9,14 +9,14 @@ const About = () => {
         <div className="three columns">
           <img
             className="profile-pic"
-            src="./images/profilepic.jpg"
+            src="https://github.com/Maucross/mauricio_resume/blob/main/public/images/profilepic.jpeg?raw=true"
             alt="Mauricio's Profile Pic"
           />
         </div>
         <div className="nine columns main-col">
           <h2>About Me</h2>
 
-          <p>👋 Hi, I'm Mauricio aka Maucross, 👀 I'm interest in working around with everything of Software Engineer stuff, Security, Programming, Projects, Databases, etc.,🌱 I’m currently learning React, Design Web and PWAs, 💞️ I'm looking to collaborate with a nice team</p>
+          <p>👋 Hi, I'm Mauricio aka Maucross, 👀 I'm interest in working around with everything of Software Engineer stuff, Security, Programming, Projects, Databases, etc.,🌱 I’m currently learning React, Design Web and PWAs, 💞️ I'm looking to collaborate with a nice team and enhance my Cybersecurity knowledge.🛡️</p>
           <div className="row">
             <div className="columns contact-details">
               <h2>Contact Details</h2>
@@ -37,7 +37,7 @@ const About = () => {
             <div className="columns download">
               <p>
                 {/* Primero tengo que cambiar miCV a uno mas moderno y luego convertirlo en PDF y asi subirlo a mi carpeta public */}
-                <a href='mauricio_cv.docx' download className="button">
+                <a href='marizaca_cv.docx' download className="button">
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>

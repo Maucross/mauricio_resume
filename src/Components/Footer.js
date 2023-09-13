@@ -8,11 +8,11 @@ const Footer = () => {
         <div className="twelve columns">
           <ul className="social-links">
 
-            <li key='youtube'>
+            {/* <li key='youtube'>
                 <a href='https://www.youtube.com/channel/UC7yFoGcFurFeq8cDs9aEnDA'>
                   <i className='fa fa-youtube'></i>
                 </a>
-              </li>
+              </li> */}
               <li key='facebook'>
                 <a href='https://www.facebook.com/marizaca/'>
                   <i className='fa fa-facebook'></i>
@@ -23,11 +23,11 @@ const Footer = () => {
                   <i className='fa fa-linkedin'></i>
                 </a>
               </li>
-              <li key='instagram'>
+              {/* <li key='instagram'>
                 <a href='https://www.instagram.com/mauricio_arizaca/'>
                   <i className='fa fa-instagram'></i>
                 </a>
-              </li>
+              </li> */}
               <li key='github'>
                 <a href='https://github.com/Maucross'>
                   <i className='fa fa-github'></i>
@@ -37,7 +37,7 @@ const Footer = () => {
           <ul className="copyright">
             <li>
               Made by{" "}
-                MACROSS
+                Mauricio
             </li>
           </ul>
         </div>

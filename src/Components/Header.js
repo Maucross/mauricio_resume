@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from "react";
+import React,{useState} from "react";
 
 import Typewriter from 'typewriter-effect';
 import {Link} from 'react-scroll'
@@ -56,13 +56,13 @@ const Header = () => {
             </Link>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a className="smoothscroll" href="#testimonials">
             <Link to='testimonials' spy={true} smooth={true} offset={10} duration={500}>
               Testimonials
             </Link>
             </a>
-          </li>
+          </li> */}
           <li>
             <a className="smoothscroll" href="#contact">
             <Link to='contact' spy={true} smooth={true} offset={10} duration={500}>
@@ -90,11 +90,11 @@ const Header = () => {
           </h3>
           <hr />
           <ul className="social">
-            <li key='youtube'>
+            {/* <li key='youtube'>
               <a href='https://www.youtube.com/channel/UC7yFoGcFurFeq8cDs9aEnDA'>
                 <i className='fa fa-youtube'></i>
               </a>
-            </li>
+            </li> */}
             <li key='facebook'>
               <a href='https://www.facebook.com/marizaca/'>
                 <i className='fa fa-facebook'></i>
@@ -105,11 +105,11 @@ const Header = () => {
                 <i className='fa fa-linkedin'></i>
               </a>
             </li>
-            <li key='instagram'>
+            {/* <li key='instagram'>
               <a href='https://www.instagram.com/mauricio_arizaca/'>
                 <i className='fa fa-instagram'></i>
               </a>
-            </li>
+            </li> */}
             <li key='github'>
               <a href='https://github.com/Maucross'>
                 <i className='fa fa-github'></i>
