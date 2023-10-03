@@ -147,7 +147,7 @@ body {
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
-	color: #838C95;
+	color: #313131;
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -701,6 +701,141 @@ properly.
 .first { clear: left; }   /* first column in default screen */
 .s-first { clear: none; } /* first column in smaller screens */
 
+/* MY CSS FROM MY CERTIFICATIONS AND BADGES AND BLABLABLA */
+
+.badge {
+
+   height: 150px;
+   margin-right: 5rem;
+
+}
+
+.bachellor {
+   /* box-sizing: border-box;
+   background: rbg(0 100 0 / 0.1) !important; */
+   height: 150px;
+   position: absolute;
+   margin: -15rem 60rem;
+   border: 5px solid rgb(71, 71, 71)
+}
+.spanDetails:hover {
+   color: white;
+   padding-left: 2rem;
+   animation: spanDetails 1s ease 0s 1 normal forwards;
+}
+.smoothscroll:hover{
+ 
+   background-color: #11ABB0;
+}
+.certifications{
+   /* display: flex; */
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  
+}
+.certifications > * {
+   flex: 1;
+}
+.mycertification{
+   
+   /* height: 15rem; */
+   /* margin: 2rem; */
+   align-items: center;
+   font-size: 13px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+img.certificate{
+   /* border: 5px solid skyblue; */
+   width: 15rem;
+   height: 12rem;
+}
+img.certificate:hover{
+   cursor: pointer;
+}
+.therealbackground{
+   background-color: #0a090967;
+   align-items: start;
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   z-index: 100;
+   left: 1%;
+   top: 5rem;
+
+   animation: myAnim 2s ease 0s 1 normal forwards;  
+}
+@keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+.therealImage{
+   
+   /* height: 100%; */
+   width: auto;
+   position: absolute;
+   width: 40%;
+   left: 32%;
+   top: 10%;
+}
+.close{
+   font-size: 40px;
+   border: 5px solid black;
+   border-radius: 5px;
+   position: relative;
+   cursor: pointer;
+   padding: 10px;
+   width: 6rem;
+   margin: 2rem 0 0 2rem;
+}
+@keyframes spanDetails {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(-68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
 /* smaller screens
 --------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
