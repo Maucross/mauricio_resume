@@ -28,7 +28,7 @@ const Header = () => {
         </a>
 
         <ul id="nav" className="nav">
-          <li className="current">
+          <li >
             <a className="smoothscroll" href="#home">
               <Link to='home' spy={true} smooth={true} offset={10} duration={500}>
               Home
@@ -56,13 +56,13 @@ const Header = () => {
             </Link>
             </a>
           </li>
-          {/* <li>
-            <a className="smoothscroll" href="#testimonials">
-            <Link to='testimonials' spy={true} smooth={true} offset={10} duration={500}>
-              Testimonials
+          <li>
+            <a className="smoothscroll" href="#portfolio">
+            <Link to='portfolio' spy={true} smooth={true} offset={10} duration={500}>
+              Certificates
             </Link>
             </a>
-          </li> */}
+          </li>
           <li>
             <a className="smoothscroll" href="#contact">
             <Link to='contact' spy={true} smooth={true} offset={10} duration={500}>
@@ -120,7 +120,7 @@ const Header = () => {
       </div>
 
       <p className="scrolldown">
-        <a className="smoothscroll" href="#about">
+        <a  href="#about">
           
           <Link to='about' spy={true} smooth={true} offset={10} duration={500}>
           <i className="icon-down-circle">

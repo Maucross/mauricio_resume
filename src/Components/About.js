@@ -16,7 +16,21 @@ const About = () => {
         <div className="nine columns main-col">
           <h2>About Me</h2>
 
-          <p>👋 Hi, I'm Mauricio aka Maucross, 👀 I'm interest in working around with everything of Software Engineer stuff, Security, Programming, Projects, Databases, etc.,🌱 I’m currently learning React, Design Web and PWAs, 💞️ I'm looking to collaborate with a nice team and enhance my Cybersecurity knowledge.🛡️</p>
+          <p>👋 Hi, I'm Mauricio Arizaca, 👀 I'm interested in working around with everything of Software Engineer stuff, Security, Programming, Projects, Databases, etc.💪🏾 I'm looking to collaborate with a nice team and enhance my Cybersecurity knowledge.🛡️ Currently I'm studying for Cybersecurity, Hacking & ISO certifications.🧑🏽‍💻</p>
+          
+          
+          <div className="row">
+            <div className="columns">
+              <h2>My Badges</h2>
+              <a href="https://www.credly.com/badges/29a552fe-8ac3-4d0a-9fd0-3be18b1c3b5d/public_url">
+                <img className="badge" src="https://github.com/Maucross/mauricio_resume/blob/main/public/images/badges/aws-certified-cloud-practitioner.png?raw=true" alt="aws-badge"/>
+              </a>
+              <a href="https://www.credly.com/badges/47f8550b-29f2-405f-8ab5-d8dc2783b317/public_url">
+                <img className="badge" src="https://github.com/Maucross/mauricio_resume/blob/main/public/images/badges/certified-in-cybersecurity-cc.png?raw=true" alt="ic2-badge"/>
+              </a>
+            </div>
+          </div>  
+          <br></br>
           <div className="row">
             <div className="columns contact-details">
               <h2>Contact Details</h2>
@@ -37,8 +51,8 @@ const About = () => {
             <div className="columns download">
               <p>
                 {/* Primero tengo que cambiar miCV a uno mas moderno y luego convertirlo en PDF y asi subirlo a mi carpeta public */}
-                <a href='marizaca_cv.docx' download className="button">
-                  <i className="fa fa-download"></i>Download Resume
+                <a href='marizaca_cv-english.pdf' download className="button">
+                  <i className="fa fa-download"></i>Download my Resume!📄
                 </a>
               </p>
             </div>

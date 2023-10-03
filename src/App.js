@@ -6,7 +6,7 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 // import Testimonials from "./Components/Testimonials";
-// import Portfolio from "./Components/Portfolio";
+import Portfolio from "./Components/Portfolio";
 
 function App() {
   
@@ -16,7 +16,7 @@ function App() {
       <Header/>
       <About/>
       <Resume/>
-      {/* <Portfolio/> */}
+      <Portfolio/>
       {/* <Testimonials/> */}
       <Contact/>
       <Footer/>

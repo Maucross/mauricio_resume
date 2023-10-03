@@ -25,7 +25,7 @@ const Contact = () => {
         </div>
 
         <div className="ten columns">
-          <p className="lead">📫 How to reach me, you can send me an email : </p>
+          <p className="lead">📫 How to reach me?, you can send me an email : </p>
         </div>
       </div>
 
