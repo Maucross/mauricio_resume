@@ -715,7 +715,7 @@ properly.
    background: rbg(0 100 0 / 0.1) !important; */
    height: 150px;
    position: absolute;
-   margin: -15rem 60rem;
+   margin: -22rem 60rem;
    border: 5px solid rgb(71, 71, 71)
 }
 .spanDetails:hover {
