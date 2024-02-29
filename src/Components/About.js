@@ -16,7 +16,7 @@ const About = () => {
         <div className="nine columns main-col">
           <h2>About Me</h2>
 
-          <p>👋 Hi, I'm Mauricio Arizaca, 👀 I'm interested in working around with everything of Software Engineer stuff, Security, Programming, Projects, Databases, etc.💪🏾 I'm looking to collaborate with a nice team and enhance my Cybersecurity knowledge.🛡️ Currently I'm studying for Cybersecurity, Hacking & ISO certifications.🧑🏽‍💻</p>
+          <p>👋 Hi, I'm Mauricio Arizaca, 👀 I'm interested in working around with everything of Software Engineer stuff, Security, Programming, Projects, Databases, etc.💪🏾 I'm looking to collaborate with a nice team and enhance my Cybersecurity knowledge.🛡️ Currently I'm studying for Cybersecurity, networking & ISO certifications.🧑🏽‍💻</p>
           
           
           <div className="row">

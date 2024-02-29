@@ -40,16 +40,23 @@ const Resume = () => {
           <div>
             <h3>Aynitech</h3>
             <p className="info">
-            Vulnerability Analyst
-              <span>&bull;</span> <em className="date">Feb 2022 - Present</em>
+            Vulnerability Analyst - Expedia Group
+              <span>&bull;</span> <em className="date">Feb 2022 - Feb 2024</em>
             </p>
             <p>
-            - Analyse and testing of web vulnerabilities, dockers, cloud instances.
-            - Review of patching assets and cloud instances.
-            - Use of database to generate reports.
-            - Development and sending of automated reports to owners with
-            vulnerable assets.
-            - Communication, negotiation, and resolution of questions with clients 
+              <ul>
+                <li>&bull; Analysis and testing of web vulnerabilities, dockers, cloud 
+              instances. Once those issues were mitigated I deliver the 
+              information to the rest of the team and close tickets.</li>
+                <li>&bull; Review of patching assets and cloud instances, using 
+              cybersecurity tools to manage these information.</li>
+                <li>&bull; Use of database to generate reports, where we gather to send 
+              to the owners each by weekly communications.</li>
+                <li>&bull; Development and sending of automated reports to owners 
+              with vulnerable assets.</li>
+                <li>&bull; Communication, negotiation, and resolution of questions with 
+              clients from different countries.</li>
+              </ul>
             </p>
             <img className="bachellor" alt="my_bachellor" src="https://github.com/Maucross/mauricio_resume/blob/main/public/images/aynitech_team.jpeg?raw=true" />
           </div>
@@ -60,7 +67,14 @@ const Resume = () => {
             IT Assistant
               <span>&bull;</span> <em className="date">Aug 2020 - Feb 2022</em>
             </p>
-            <p>Guide users on the operation of technological systems, installation and update of hardware, software and security patches.User maintenance, Active Directory privileges for medical and management users. Helpdesk service to users within the clinic for resolution of problems.</p>
+            <p>
+              <ul>
+                <li>&bull; Guidance to users on the operation of technological systems.</li>
+                <li>&bull; Installation and update of hardware, software and security patches.</li>
+                <li>&bull; User maintenance, Active Directory privileges for medical and management users.</li>
+                <li>&bull; Helpdesk service to users within the clinic for resolution of IT problems</li>
+              </ul>
+            </p>
             <img className="bachellor" alt="my_bachellor" src="https://github.com/Maucross/mauricio_resume/blob/main/public/images/sanna_team.jpeg?raw=true" />
           </div>
         </div>
@@ -79,8 +93,8 @@ const Resume = () => {
           <div className="bars">
             <ul className="skills">
               <li>
-                <span style={ {width:'100%'} } className="bar-expand"><p className="spanDetails">I hacked machines on HacktheBox, TryHackMe at advanced level.</p></span>
-                <em>Hacking</em>
+                <span style={ {width:'100%'} } className="bar-expand"><p className="spanDetails">Effective communication - problem solving - critical thinking.</p></span>
+                <em>Soft Skills</em>
                 
               </li>
               <li>
@@ -88,15 +102,15 @@ const Resume = () => {
                 <em>Excel</em>
               </li>
               <li>
-                <span style={ {width:'70%'} } className="bar-expand"><p className="spanDetails">CI / CD best practices.</p></span>
-                <em>GitHub</em>
+                <span style={ {width:'75%'} } className="bar-expand"><p className="spanDetails">Python for web, automation processes and reports.</p></span>
+                <em>Python</em>
               </li>
               <li>
-                <span style={ {width:'99%'} } className="bar-expand"><p className="spanDetails">Using ReactJS, frameworksm, html & css.</p></span>
+                <span style={ {width:'99%'} } className="bar-expand"><p className="spanDetails">Using ReactJS, frameworks, html & css.</p></span>
                 <em>Web Programming</em>
               </li>
               <li>
-                <span style={ {width: '95%'} } className="bar-expand"><p className="spanDetails">Cybersecurity concepts, OWASP top 10 vulnerabilities and Cloud.</p></span>
+                <span style={ {width: '95%'} } className="bar-expand"><p className="spanDetails">Using scanning tools, knowledge of OWASP TOP 10 and testing vulns.</p></span>
                 <em>Vulnerability Analyst</em>
               </li>
             </ul>
