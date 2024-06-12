@@ -41,7 +41,7 @@ const Resume = () => {
             <h3>Aynitech</h3>
             <p className="info">
             Vulnerability Analyst - Expedia Group
-              <span>&bull;</span> <em className="date">Feb 2022 - Feb 2024</em>
+              <span>&bull;</span> <em className="date">Feb 2022 - <b>Present</b></em>
             </p>
             <p>
               <ul>

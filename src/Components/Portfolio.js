@@ -46,6 +46,11 @@ const Portfolio = () => {
         title:"ISO 27001 Information Security Management",
         img:'https://github.com/Maucross/mauricio_resume/blob/main/public/images/certificates/ISO-27001-Information_Security_Management.jpg?raw=true'
       },
+      {
+        name:"iso27001-LA",
+        title:"ISO 27001 Lead Auditor - 2022",
+        img:'https://github.com/Maucross/mauricio_resume/blob/main/public/images/certificates/iso27001-lead-auditor-arizaca.jpg?raw=true'
+      },
     ]
   );
   return (

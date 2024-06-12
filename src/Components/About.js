@@ -28,6 +28,9 @@ const About = () => {
               <a href="https://www.credly.com/badges/47f8550b-29f2-405f-8ab5-d8dc2783b317/public_url">
                 <img className="badge" src="https://github.com/Maucross/mauricio_resume/blob/main/public/images/badges/certified-in-cybersecurity-cc.png?raw=true" alt="ic2-badge"/>
               </a>
+              <a href="https://www.credly.com/badges/76088005-ee95-4d39-845c-7e1bea5fb802/public_url">
+                <img className="badge" src="https://github.com/Maucross/mauricio_resume/blob/main/public/images/badges/ISO2700-lead-auditor.png?raw=true" alt="ISO27001-badge"/>
+              </a>
             </div>
           </div>  
           <br></br>
